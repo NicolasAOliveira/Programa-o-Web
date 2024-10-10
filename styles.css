@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+#buscar {
+    margin-bottom: 20px;
+}
+
+#pesquisa {
+    width: 80%;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+#btn-pesquisar {
+    padding: 10px 20px;
+}
+
+#lista-oportunidades {
+    list-style-type: none;
+    padding: 0;
+}
+
+.oportunidade {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.oportunidade h3 {
+    margin-top: 0;
+}
