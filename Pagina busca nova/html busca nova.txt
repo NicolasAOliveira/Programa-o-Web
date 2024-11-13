@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tucano Trabalhos - Busca de Vagas</title>
+  <link rel="stylesheet" href="../CSS/busca.css">
+  <link rel="stylesheet" href="../CSS/header.css">
+  <link rel="stylesheet" href="../CSS/main.css">
+  <link rel="stylesheet" href="../CSS/rodape.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header home-header">
+    <div class="logo">
+      <a href="index.html">
+        <img src="../IMG/logo.png" alt="Logo Tucano">
+      </a>
+    </div>
+    <div class="header-icons">
+      <button id="notificacoes-btn" class="icon-bell-btn">
+        <img src="../IMG/bell-icon.png" alt="Notificações" class="icon-bell">
+      </button>
+      <img src="../IMG/profile-pic.png" alt="Perfil" class="profile-pic">
+    </div>
+  </header>  
+
+  <section class="search-advanced">
+    <div class="search-field">
+      <input type="text" placeholder="Buscar vagas por palavra-chave">
+      <button><img src="../IMG/search-icon.png" alt="Buscar"></button>
+    </div>
+    <div class="search-field">
+      <input type="text" placeholder="Onde quero trabalhar">
+      <button><img src="../IMG/search-icon.png" alt="Buscar"></button>
+    </div>
+  </section>
+
+  <main>
+    <!-- Seção de Filtros -->
+    <section class="filters">
+      <div class="filter-group">
+        <h4>Área de atuação</h4>
+        <label><input type="checkbox"> Garçom</label>
+        <label><input type="checkbox"> Serviços de limpeza</label>
+        <label><input type="checkbox"> Construção civil</label>
+        <label><input type="checkbox"> Vendedor</label>
+        <label><input type="checkbox"> Transporte</label>
+        <label><input type="checkbox"> Manutenção e reparos</label>
+        <label><input type="checkbox"> Beleza e estética</label>
+        <label><input type="checkbox"> Educação e aulas particulares</label>
+      </div>
+
+      <div class="filter-group">
+        <h4>Escolaridade</h4>
+        <label><input type="checkbox"> Ensino Fundamental</label>
+        <label><input type="checkbox"> Ensino Médio</label>
+        <label><input type="checkbox"> Graduação</label>
+        <label><input type="checkbox"> Pós Graduação</label>
+      </div>
+
+      <div class="filter-group">
+        <h4>Duração</h4>
+        <label><input type="checkbox"> 1 Dia</label>
+        <label><input type="checkbox"> +2 Dias</label>
+        <label><input type="checkbox"> Feriado</label>
+        <label><input type="checkbox"> Fim de semana</label>
+      </div>
+
+      <div class="filter-group">
+        <h4>Horário</h4>
+        <label><input type="checkbox"> Manhã</label>
+        <label><input type="checkbox"> Tarde</label>
+        <label><input type="checkbox"> Noite</label>
+        <label><input type="checkbox"> Madrugada</label>
+      </div>
+    </section>
+
+    <!-- Seção de Vagas Disponíveis -->
+    <section class="job-listings">
+      <h2>Vagas Disponíveis</h2>
+      <div class="job-card" onclick="openJobPage('Cantina Italiana', 'Manhã / Tarde', 'Serviço de garçom para 1 ou 2 turnos, em restaurante italiano familiar.', '$$$')">
+        <h3>Cantina Italiana</h3>
+        <p>Manhã / Tarde</p>
+        <p>Serviço de garçom para 1 ou 2 turnos, em restaurante italiano familiar.</p>
+        <p><strong>Salário:</strong> $$$</p>
+      </div>
+      
+      <div class="job-card">
+        <h3>Limpeza de vidros</h3>
+        <p>Tarde</p>
+        <p>Assistente com limpeza de vidros das 8 às 15 com hora de almoço.</p>
+        <p><strong>Salário:</strong> $$$$</p>
+      </div>
+
+      <div class="job-card">
+        <h3>Transporte</h3>
+        <p>Noite</p>
+        <p>Estamos em busca de motoristas para realizar entregas rápidas e eficientes em áreas urbanas.</p>
+        <p><strong>Salário:</strong> $$$</p>
+      </div>
+
+      <div class="job-card">
+        <h3>Construção</h3>
+        <p>Manhã / Tarde</p>
+        <p>Estamos contratando ajudantes para auxiliar em pequenas obras de construção.</p>
+        <p><strong>Salário:</strong> $$$</p>
+      </div>
+
+      <div class="job-card">
+        <h3>Barbearia</h3>
+        <p>Manhã / Tarde</p>
+        <p>Estamos contratando barbeiro profissional para atuar em nossa barbearia.</p>
+        <p><strong>Salário:</strong> $$$</p>
+      </div>
+    </section>
+
+
+  <footer>
+    <p>&copy; 2024 TUCANO LLC - Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="../JAVASCRIPT/vaga.js"></script>
+</body>
+</html>
