@@ -1,0 +1,31 @@
+<header class="site-header home-header">
+        <div class="logo">
+          <a href="index.html">
+            <img src="../IMG/logo.png" alt="Logo Tucano">
+          </a>
+        </div>
+        <div class="header-icons">
+          <button id="notificacoes-btn" class="icon-bell-btn">
+            <img src="../IMG/bell-icon.png" alt="Notificações" class="icon-bell">
+          </button>
+          <!-- Barra de Notificações -->
+          <div id="notificacoes-bar" class="notificacoes-bar">
+            <h2>Notificações</h2>
+            <ul>
+                <li>
+                    <a href="notificacoes.html" class="notification-link">
+                        <strong>Nova Vaga: Serviço de Garçom</strong>
+                        <p>Empresa Italian Food está à procura de um garçom.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="notificacoes.html" class="notification-link">
+                        <strong>Nova Vaga: Assistente de Vendas</strong>
+                        <p>Empresa Microsoft está contratando um Assistente de Vendas.</p>
+                    </a>
+                </li>
+            </ul>
+          </div>
+          <img src="../IMG/profile-pic.png" alt="Perfil" class="profile-pic">
+        </div>
+    </header>
